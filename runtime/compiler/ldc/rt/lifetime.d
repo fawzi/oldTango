@@ -543,6 +543,9 @@ extern (C) void rt_finalize(void* p, bool det = true)
 
     if (p) // not necessary if called from gc
     {
+        if (det)
+           (cast(Object)p).dispose();
+
         ClassInfo** pc = cast(ClassInfo**)p;
 
         if (*pc)
@@ -748,7 +751,6 @@ Loverflow:
 }
 
 /+
-
 /**
  * Append y[] to array x[].
  * size is size of each array element.
@@ -781,7 +783,7 @@ extern (C) long _d_arrayappendT(TypeInfo ti, Array *px, byte[] y)
     memcpy(px.data + length * sizeelem, y.ptr, y.length * sizeelem);
     return *cast(long*)px;
 }
-
++/
 
 /**
  *
@@ -845,10 +847,11 @@ size_t newCapacity(size_t newlength, size_t size)
 
 
 /**
- *
+ * Appends a single element to an array.
  */
-extern (C) byte[] _d_arrayappendcT(TypeInfo ti, ref byte[] x, ...)
+extern (C) byte[] _d_arrayappendcT(TypeInfo ti, void* array, void* element)
 {
+    auto x = cast(byte[]*)array;
     auto sizeelem = ti.next.tsize();            // array element size
     auto info = gc_query(x.ptr);
     auto length = x.length;
@@ -875,18 +878,17 @@ extern (C) byte[] _d_arrayappendcT(TypeInfo ti, ref byte[] x, ...)
         assert(newcap >= newlength * sizeelem);
         newdata = cast(byte *)gc_malloc(newcap + 1, info.attr);
         memcpy(newdata, x.ptr, length * sizeelem);
-        (cast(void**)(&x))[1] = newdata;
+        (cast(void**)x)[1] = newdata;
     }
   L1:
-    byte *argp = cast(byte *)(&ti + 2);
+    byte *argp = cast(byte *)element;
 
-    *cast(size_t *)&x = newlength;
+    *cast(size_t *)x = newlength;
     x.ptr[length * sizeelem .. newsize] = argp[0 .. sizeelem];
     assert((cast(size_t)x.ptr & 15) == 0);
     assert(gc_sizeOf(x.ptr) > x.length * sizeelem);
-    return x;
+    return *x;
 }
-
 
 /**
  * Append dchar to char[]
@@ -1126,7 +1128,7 @@ extern (C) byte[] _d_arraycatnT(TypeInfo ti, uint n, ...)
     return result;
 }
 
-
+/+
 /**
  *
  */
@@ -1164,8 +1166,8 @@ extern (C) void* _d_arrayliteralT(TypeInfo ti, size_t length, ...)
     }
     return result;
 }
-
 +/
+
 
 
 /**

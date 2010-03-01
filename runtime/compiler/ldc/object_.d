@@ -77,6 +77,15 @@ alias int equals_t;
 class Object
 {
     /**
+     * Override this to capture an explicit delete or an implicit
+     * delete via a scoped-instance. Unlike a dtor(), GC references
+     * are still intact when this method is invoked
+     */
+    void dispose()
+    {
+    }
+
+    /**
      * Convert Object to a human readable string.
      */
     char[] toString()
@@ -1169,7 +1178,7 @@ class ModuleInfo
 
     void function() ictor;      // module static constructor (order independent)
 
-    static int opApply( int delegate( inout ModuleInfo ) dg )
+    static int opApply( int delegate( ref ModuleInfo ) dg )
     {
         int ret = 0;
 
@@ -1423,7 +1432,7 @@ extern (C) void rt_attachDisposeEvent(Object h, DEvent e)
         Monitor* m = getMonitor(h);
         assert(m.impl is null);
 
-        foreach (inout v; m.devt)
+        foreach (ref v; m.devt)
         {
             if (v is null || v == e)
             {
