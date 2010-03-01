@@ -1,0 +1,69 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/build/install
+http://svn.dsource.org/projects/tango
+
+
+
+2009-09-16T12:54:59.376272Z
+4938
+DRK
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+94d23b9d-ec12-0410-b399-9fdf8a1d4f26
+
+snapshot
+dir
+
+dmd-posix
+dir
+
+gdc-posix.sh
+file
+
+
+
+
+2009-08-11T13:16:21.000000Z
+f3aabdcd9f5ea64cd40cea19d3f45174
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+gdc-posix-dsss
+dir
+
+windows
+dir
+
+README.txt
+file
+
+
+
+
+2009-08-11T13:16:21.000000Z
+cc5a9d6efc8b7358fc4f376b16fb2374
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+gdc-posix
+dir
+

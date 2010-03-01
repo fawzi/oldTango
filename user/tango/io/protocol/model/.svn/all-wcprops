@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/protocol/model
+END
+IWriter.d
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/protocol/model/IWriter.d
+END
+IProtocol.d
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/protocol/model/IProtocol.d
+END
+IReader.d
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/protocol/model/IReader.d
+END

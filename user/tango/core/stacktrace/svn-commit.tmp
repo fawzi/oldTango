@@ -1,0 +1,4 @@
+more robust handling of the non uniquely parseable alias mangling, fix #1719
+--This line, and those below, will be ignored--
+
+M    Demangler.d

@@ -1,0 +1,18 @@
+K 10
+svn:ignore
+V 112
+selector
+formatindex
+filescan
+core
+composite
+argparser
+chainsaw
+formatalign
+hello
+filecat
+filecopy
+filebubbler
+
+
+END

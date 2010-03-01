@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/tango/!svn/ver/4641/trunk/example/system
+END
+process.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4326/trunk/example/system/process.d
+END
+stacktrace.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4641/trunk/example/system/stacktrace.d
+END
+arguments.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4179/trunk/example/system/arguments.d
+END
+normpath.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/2465/trunk/example/system/normpath.d
+END
+localtime.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4142/trunk/example/system/localtime.d
+END

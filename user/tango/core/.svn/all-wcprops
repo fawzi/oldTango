@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/tango/!svn/ver/4964/trunk/user/tango/core
+END
+Lifetime.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4881/trunk/user/tango/core/Lifetime.d
+END
+ByteSwap.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4814/trunk/user/tango/core/ByteSwap.d
+END
+BitVector.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4964/trunk/user/tango/core/BitVector.d
+END
+ThreadPool.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4927/trunk/user/tango/core/ThreadPool.d
+END
+Variant.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4937/trunk/user/tango/core/Variant.d
+END
+Cpuid.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4814/trunk/user/tango/core/Cpuid.d
+END
+Traits.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4999/trunk/user/tango/core/Traits.d
+END
+RuntimeTraits.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/core/RuntimeTraits.d
+END
+Atomic.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4880/trunk/user/tango/core/Atomic.d
+END
+Signal.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4814/trunk/user/tango/core/Signal.d
+END
+BitArray.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4814/trunk/user/tango/core/BitArray.d
+END
+Array.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4814/trunk/user/tango/core/Array.d
+END
+Vararg.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4814/trunk/user/tango/core/Vararg.d
+END
+Version.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4814/trunk/user/tango/core/Version.d
+END
+Tuple.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4814/trunk/user/tango/core/Tuple.d
+END

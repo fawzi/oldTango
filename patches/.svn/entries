@@ -1,0 +1,68 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/patches
+http://svn.dsource.org/projects/tango
+
+
+
+2008-10-17T18:26:24.214348Z
+4013
+larsivi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+94d23b9d-ec12-0410-b399-9fdf8a1d4f26
+
+BacktraceHack-DMD-Win32.diff
+file
+
+
+
+
+2009-08-11T13:16:31.000000Z
+69b0eac94574b18ac57c8678f2de3d98
+2007-09-16T20:25:15.652228Z
+2569
+h3r3tic
+
+ImprovedUnitTests.diff
+file
+
+
+
+
+2009-08-11T13:16:31.000000Z
+0c1dcf0dd61f1ac33107e2a2387a98e5
+2007-07-20T17:13:41.499899Z
+2465
+sean
+has-props
+
+proposals
+dir
+
+build-posix-mingw.patch
+file
+
+
+
+
+2009-08-11T13:16:31.000000Z
+e285ed121f3e5c5e55b20f111291ed17
+2007-12-03T23:16:10.789762Z
+2957
+h3r3tic
+

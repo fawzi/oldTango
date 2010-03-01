@@ -1,0 +1,41 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/user/tango/util/log/model
+http://svn.dsource.org/projects/tango
+
+
+
+2009-08-27T15:56:25.018716Z
+4892
+larsivi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+94d23b9d-ec12-0410-b399-9fdf8a1d4f26
+
+ILogger.d
+file
+
+
+
+
+2009-08-27T17:26:33.000000Z
+2f2eab7fc2accc262fe21bdefb3acad8
+2009-08-27T15:56:25.018716Z
+4892
+larsivi
+has-props
+

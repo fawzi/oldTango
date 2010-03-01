@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/tango/!svn/ver/3542/trunk/example/cluster
+END
+qclient.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/3485/trunk/example/cluster/qclient.d
+END
+qlisten.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/3485/trunk/example/cluster/qlisten.d
+END
+invalidate.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/3485/trunk/example/cluster/invalidate.d
+END
+cclient.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/3542/trunk/example/cluster/cclient.d
+END
+task.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/2465/trunk/example/cluster/task.d
+END
+tclient.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/3485/trunk/example/cluster/tclient.d
+END
+alert.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/3485/trunk/example/cluster/alert.d
+END
+qserver.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/2465/trunk/example/cluster/qserver.d
+END
+Add.d
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/tango/!svn/ver/2465/trunk/example/cluster/Add.d
+END
+cserver.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/2465/trunk/example/cluster/cserver.d
+END
+qrequest.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/3485/trunk/example/cluster/qrequest.d
+END
+tserver.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/2465/trunk/example/cluster/tserver.d
+END
+reply.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/3485/trunk/example/cluster/reply.d
+END

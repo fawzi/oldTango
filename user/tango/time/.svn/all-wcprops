@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/tango/!svn/ver/4882/trunk/user/tango/time
+END
+Time.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4814/trunk/user/tango/time/Time.d
+END
+ISO8601.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4814/trunk/user/tango/time/ISO8601.d
+END
+Clock.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4814/trunk/user/tango/time/Clock.d
+END
+WallClock.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4814/trunk/user/tango/time/WallClock.d
+END
+StopWatch.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4882/trunk/user/tango/time/StopWatch.d
+END

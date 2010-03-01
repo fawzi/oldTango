@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4919/trunk/runtime/gc/basic/rt/basicgc
+END
+gcx.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4919/trunk/runtime/gc/basic/rt/basicgc/gcx.d
+END
+gcalloc.d
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/tango/!svn/ver/4814/trunk/runtime/gc/basic/rt/basicgc/gcalloc.d
+END
+gcstats.d
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/tango/!svn/ver/4912/trunk/runtime/gc/basic/rt/basicgc/gcstats.d
+END
+gc.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4912/trunk/runtime/gc/basic/rt/basicgc/gc.d
+END
+gcbits.d
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4814/trunk/runtime/gc/basic/rt/basicgc/gcbits.d
+END

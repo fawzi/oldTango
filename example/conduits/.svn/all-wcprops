@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/tango/!svn/ver/4615/trunk/example/conduits
+END
+filepathname.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/2465/trunk/example/conduits/filepathname.d
+END
+fileops.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/2465/trunk/example/conduits/fileops.d
+END
+composite.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4179/trunk/example/conduits/composite.d
+END
+pathchildren.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4615/trunk/example/conduits/pathchildren.d
+END
+crc.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4547/trunk/example/conduits/crc.d
+END
+filecat.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4179/trunk/example/conduits/filecat.d
+END
+randomio.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4179/trunk/example/conduits/randomio.d
+END
+filecopy.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4179/trunk/example/conduits/filecopy.d
+END
+FileBucket.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4179/trunk/example/conduits/FileBucket.d
+END
+filebubbler.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/3551/trunk/example/conduits/filebubbler.d
+END
+filescanregex.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4179/trunk/example/conduits/filescanregex.d
+END
+lineio.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4179/trunk/example/conduits/lineio.d
+END
+paths.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/3071/trunk/example/conduits/paths.d
+END
+filescan.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/2523/trunk/example/conduits/filescan.d
+END
+createzip.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4255/trunk/example/conduits/createzip.d
+END
+mmap.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4179/trunk/example/conduits/mmap.d
+END
+unifile.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/2465/trunk/example/conduits/unifile.d
+END
+shuffle.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4179/trunk/example/conduits/shuffle.d
+END

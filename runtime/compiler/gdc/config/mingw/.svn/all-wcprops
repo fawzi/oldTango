@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/mingw
+END
+frag-gen
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/mingw/frag-gen
+END
+frag-math
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/mingw/frag-math
+END

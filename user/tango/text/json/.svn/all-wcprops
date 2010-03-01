@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4868/trunk/user/tango/text/json
+END
+JsonParser.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4868/trunk/user/tango/text/json/JsonParser.d
+END
+Json.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/json/Json.d
+END
+JsonEscape.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/json/JsonEscape.d
+END

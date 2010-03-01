@@ -1,0 +1,57 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/runtime/common/tango/stdc/posix
+http://svn.dsource.org/projects/tango
+
+
+
+2009-08-26T01:09:33.628926Z
+4882
+fawzi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+94d23b9d-ec12-0410-b399-9fdf8a1d4f26
+
+config.d
+file
+
+
+
+
+2009-08-11T13:16:23.000000Z
+d71765220ba05a07723bf20e8aae11d9
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+pthread_darwin.d
+file
+
+
+
+
+2009-08-11T13:16:23.000000Z
+bd8eb268af7c5cacb885c0b9de3dbff5
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+sys
+dir
+

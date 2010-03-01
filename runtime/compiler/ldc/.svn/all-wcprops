@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4912/trunk/runtime/compiler/ldc
+END
+object_.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4912/trunk/runtime/compiler/ldc/object_.d
+END
+mars.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/mars.h
+END
+monitor.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/monitor.c
+END
+ldc.mak
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/ldc.mak
+END
+cConst.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/cConst.c
+END
+critical.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/critical.c
+END

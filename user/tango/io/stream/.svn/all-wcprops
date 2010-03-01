@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4865/trunk/user/tango/io/stream
+END
+Snoop.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Snoop.d
+END
+Endian.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Endian.d
+END
+Utf.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Utf.d
+END
+Patterns.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Patterns.d
+END
+Delimiters.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Delimiters.d
+END
+Digester.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Digester.d
+END
+DataFile.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/DataFile.d
+END
+Data.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Data.d
+END
+Lines.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Lines.d
+END
+Map.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Map.d
+END
+Greedy.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Greedy.d
+END
+Quotes.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Quotes.d
+END
+Buffered.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Buffered.d
+END
+TextFile.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/TextFile.d
+END
+Text.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Text.d
+END
+Typed.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Typed.d
+END
+Format.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/stream/Format.d
+END
+Iterator.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4865/trunk/user/tango/io/stream/Iterator.d
+END

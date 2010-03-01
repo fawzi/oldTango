@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4864/trunk/user/tango/io/device
+END
+FileMap.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4864/trunk/user/tango/io/device/FileMap.d
+END
+Array.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/device/Array.d
+END
+Device.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/device/Device.d
+END
+File.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/device/File.d
+END
+SerialPort.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/device/SerialPort.d
+END
+Conduit.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/device/Conduit.d
+END
+TempFile.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/device/TempFile.d
+END
+ThreadPipe.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/device/ThreadPipe.d
+END
+BitBucket.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/device/BitBucket.d
+END

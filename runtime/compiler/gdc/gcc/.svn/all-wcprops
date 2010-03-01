@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/gcc
+END
+fpmath.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/gcc/fpmath.d
+END
+cbridge_stdio.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/gcc/cbridge_stdio.c
+END
+deh.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/gcc/deh.d
+END
+builtins.di
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/gcc/builtins.di
+END
+cbridge_fdset.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/gcc/cbridge_fdset.c
+END
+unwind.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/gcc/unwind.d
+END
+configext.d
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/gcc/configext.d
+END
+cbridge_math.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/gcc/cbridge_math.c
+END
+aix_float.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/gcc/aix_float.h
+END
+cbridge_time.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/gcc/cbridge_time.c
+END
+support.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/gcc/support.d
+END
+threadsem.d
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/gcc/threadsem.d
+END

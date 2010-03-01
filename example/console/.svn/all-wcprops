@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/tango/!svn/ver/2541/trunk/example/console
+END
+buffered.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/2541/trunk/example/console/buffered.d
+END
+stdout.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/2465/trunk/example/console/stdout.d
+END
+hello.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/2465/trunk/example/console/hello.d
+END

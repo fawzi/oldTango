@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/locale
+END
+Locale.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/locale/Locale.d
+END
+Convert.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/locale/Convert.d
+END
+Posix.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/locale/Posix.d
+END
+Win32.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/locale/Win32.d
+END
+Collation.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/locale/Collation.d
+END
+Core.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/locale/Core.d
+END
+Data.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/locale/Data.d
+END
+Parse.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/locale/Parse.d
+END

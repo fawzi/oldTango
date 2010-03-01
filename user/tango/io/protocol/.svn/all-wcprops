@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/protocol
+END
+Allocator.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/protocol/Allocator.d
+END
+EndianProtocol.d
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/protocol/EndianProtocol.d
+END
+Reader.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/protocol/Reader.d
+END
+NativeProtocol.d
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/protocol/NativeProtocol.d
+END
+PickleProtocol.d
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/protocol/PickleProtocol.d
+END
+Writer.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/protocol/Writer.d
+END

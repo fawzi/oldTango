@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4953/trunk/runtime/common/tango/core
+END
+Exception.d
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/tango/!svn/ver/4814/trunk/runtime/common/tango/core/Exception.d
+END
+BitManip.d
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4880/trunk/runtime/common/tango/core/BitManip.d
+END
+Runtime.d
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/runtime/common/tango/core/Runtime.d
+END
+Thread.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4931/trunk/runtime/common/tango/core/Thread.d
+END
+Memory.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4912/trunk/runtime/common/tango/core/Memory.d
+END

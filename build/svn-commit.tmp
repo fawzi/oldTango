@@ -1,0 +1,6 @@
+make it easier to use a user defined build directory (and you really want to use a local filesystem for it, as it makes a big difference in compile time)
+--This line, and those below, will be ignored--
+
+M    runtime/Makefile
+M    build.sh
+M    user/Makefile

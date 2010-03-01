@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/xml
+END
+Document.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/xml/Document.d
+END
+DocEntity.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/xml/DocEntity.d
+END
+SaxParser.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/xml/SaxParser.d
+END
+DocPrinter.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/xml/DocPrinter.d
+END
+PullParser.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/xml/PullParser.d
+END
+DocTester.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/xml/DocTester.d
+END

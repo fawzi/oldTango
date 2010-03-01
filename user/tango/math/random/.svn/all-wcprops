@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4867/trunk/user/tango/math/random
+END
+ExpSource.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/user/tango/math/random/ExpSource.d
+END
+Random.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/math/random/Random.d
+END
+Twister.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/math/random/Twister.d
+END
+Kiss.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/math/random/Kiss.d
+END
+NormalSource.d
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/tango/!svn/ver/4814/trunk/user/tango/math/random/NormalSource.d
+END
+Ziggurat.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/math/random/Ziggurat.d
+END

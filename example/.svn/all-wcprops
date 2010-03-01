@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/projects/tango/!svn/ver/4931/trunk/example
+END
+dsss.conf
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/tango/!svn/ver/4590/trunk/example/dsss.conf
+END
+jake-all.bat
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/3832/trunk/example/jake-all.bat
+END
+linux.mak
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/tango/!svn/ver/4255/trunk/example/linux.mak
+END

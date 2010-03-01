@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4912/trunk/runtime/compiler/ldc/rt
+END
+adi.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/rt/adi.d
+END
+lifetime.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/rt/lifetime.d
+END
+switch_.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/rt/switch_.d
+END
+cImports.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4818/trunk/runtime/compiler/ldc/rt/cImports.d
+END
+arrayInit.d
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/rt/arrayInit.d
+END
+aaA.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/rt/aaA.d
+END
+aApply.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/rt/aApply.d
+END
+memory.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/rt/memory.d
+END
+aApplyR.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/rt/aApplyR.d
+END
+cast_.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/rt/cast_.d
+END
+dmain2.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4912/trunk/runtime/compiler/ldc/rt/dmain2.d
+END
+qsort2.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/rt/qsort2.d
+END
+invariant_.d
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/rt/invariant_.d
+END
+eh.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/rt/eh.d
+END

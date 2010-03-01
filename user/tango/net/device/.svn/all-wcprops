@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/tango/!svn/ver/4865/trunk/user/tango/net/device
+END
+Datagram.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/device/Datagram.d
+END
+Berkeley.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4848/trunk/user/tango/net/device/Berkeley.d
+END
+Multicast.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/device/Multicast.d
+END
+Socket.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/device/Socket.d
+END
+SSLSocket.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4865/trunk/user/tango/net/device/SSLSocket.d
+END

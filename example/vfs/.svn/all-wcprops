@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/projects/tango/!svn/ver/4179/trunk/example/vfs
+END
+vfscan.d
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/3555/trunk/example/vfs/vfscan.d
+END
+vfszip.d
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/3195/trunk/example/vfs/vfszip.d
+END
+vfshuffle.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/3555/trunk/example/vfs/vfshuffle.d
+END
+vfscanregex.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4179/trunk/example/vfs/vfscanregex.d
+END

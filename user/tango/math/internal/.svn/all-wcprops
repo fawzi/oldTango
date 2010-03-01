@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4926/trunk/user/tango/math/internal
+END
+BignumNoAsm.d
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/tango/!svn/ver/4926/trunk/user/tango/math/internal/BignumNoAsm.d
+END
+Cache.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/math/internal/Cache.d
+END
+BignumX86.d
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4814/trunk/user/tango/math/internal/BignumX86.d
+END
+BiguintCore.d
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/tango/!svn/ver/4814/trunk/user/tango/math/internal/BiguintCore.d
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/projects/tango/!svn/ver/4938/trunk/build
+END
+unittest-dsss.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4814/trunk/build/unittest-dsss.sh
+END
+build-tango-app.exe
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4938/trunk/build/build-tango-app.exe
+END
+build-dmd.bat
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/tango/!svn/ver/4907/trunk/build/build-dmd.bat
+END
+unittest-ldc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/tango/!svn/ver/4912/trunk/build/unittest-ldc.sh
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/tango/!svn/ver/4933/trunk/build/build.sh
+END
+unittest-dmd.sh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/tango/!svn/ver/4880/trunk/build/unittest-dmd.sh
+END
+install_dmd.exe
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/tango/!svn/ver/4830/trunk/build/install_dmd.exe
+END
+build-tango.bat
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/tango/!svn/ver/4814/trunk/build/build-tango.bat
+END
+dmd-win32.mak
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/tango/!svn/ver/4905/trunk/build/dmd-win32.mak
+END
+build-install-all.bat
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4877/trunk/build/build-install-all.bat
+END

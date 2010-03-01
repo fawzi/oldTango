@@ -1,0 +1,29 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/runtime/common/tango/stdc/posix/sys
+http://svn.dsource.org/projects/tango
+
+
+
+2009-08-25T18:37:55.277707Z
+4880
+fawzi
+
+
+svn:special svn:externals svn:needs-lock
+
+time.d
+file
+
+
+
+
+2009-08-24T19:31:22.000000Z
+ea39b5c68fac80803789bb714d6e8ce3
+2009-08-25T18:37:55.277707Z
+4880
+fawzi
+has-props
+

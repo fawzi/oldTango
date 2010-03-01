@@ -1,0 +1,124 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/user/tango/stdc/constants
+http://svn.dsource.org/projects/tango
+
+
+
+2009-09-04T12:13:09.965482Z
+4925
+fawzi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+94d23b9d-ec12-0410-b399-9fdf8a1d4f26
+
+linux
+dir
+
+sysctl.d
+file
+
+
+
+
+2009-08-11T13:16:42.000000Z
+3f0b065c4e849edc260f6b9008dfafa4
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+darwin
+dir
+
+constSupport.d
+file
+
+
+
+
+2009-08-11T13:16:42.000000Z
+52ddcf1d26433ae71eed1d197fcd90c4
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+errno.d
+file
+
+
+
+
+2009-08-11T13:16:42.000000Z
+40ab21b1ac41daee65f0c74e8e706485
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+fcntl.d
+file
+
+
+
+
+2009-08-11T13:16:42.000000Z
+f4f75f1ee469f987fa78bd26a2d51661
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+unistd.d
+file
+
+
+
+
+2009-08-11T13:16:42.000000Z
+acf2d4c83c9c2c33d7cb9f4a790ec862
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+freebsd
+dir
+
+socket.d
+file
+
+
+
+
+2009-08-11T13:16:42.000000Z
+5e56f59fe71836d4a449551f7c2207bd
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+solaris
+dir
+
+win
+dir
+
+autoconf
+dir
+

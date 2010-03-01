@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4814/trunk/user/tango/sys/linux
+END
+linux.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/user/tango/sys/linux/linux.d
+END
+tipc.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4814/trunk/user/tango/sys/linux/tipc.d
+END
+epoll.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/user/tango/sys/linux/epoll.d
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4860/trunk/user/tango/io/compress
+END
+BzipStream.d
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4860/trunk/user/tango/io/compress/BzipStream.d
+END
+Zip.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/compress/Zip.d
+END
+ZlibStream.d
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4860/trunk/user/tango/io/compress/ZlibStream.d
+END

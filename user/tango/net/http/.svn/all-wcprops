@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/http
+END
+HttpClient.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/http/HttpClient.d
+END
+HttpGet.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/http/HttpGet.d
+END
+HttpParams.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/http/HttpParams.d
+END
+HttpTokens.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/http/HttpTokens.d
+END
+HttpTriplet.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/http/HttpTriplet.d
+END
+ChunkStream.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/http/ChunkStream.d
+END
+HttpPost.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/http/HttpPost.d
+END
+HttpStack.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/http/HttpStack.d
+END
+HttpConst.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/http/HttpConst.d
+END
+HttpHeaders.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/http/HttpHeaders.d
+END
+HttpCookies.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/http/HttpCookies.d
+END

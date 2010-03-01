@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/tango/!svn/ver/4965/trunk/user/tango/stdc
+END
+time.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4939/trunk/user/tango/stdc/time.d
+END
+fenv.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/fenv.d
+END
+locale.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/locale.d
+END
+stringz.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/stringz.d
+END
+limits.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4965/trunk/user/tango/stdc/limits.d
+END
+string.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/string.d
+END
+complex.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/complex.d
+END
+wctype.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/wctype.d
+END
+signal.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/signal.d
+END
+inttypes.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/inttypes.d
+END
+stdlib.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/stdlib.d
+END
+tgmath.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/tgmath.d
+END
+ctype.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/ctype.d
+END
+errno.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/errno.d
+END
+math.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/math.d
+END

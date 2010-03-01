@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4851/trunk/user/tango/sys/win32
+END
+SpecialPath.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/user/tango/sys/win32/SpecialPath.d
+END
+Process.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4821/trunk/user/tango/sys/win32/Process.d
+END
+Macros.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4821/trunk/user/tango/sys/win32/Macros.d
+END
+CodePage.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/sys/win32/CodePage.d
+END
+IUnknown.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/sys/win32/IUnknown.d
+END
+WsaSock.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4851/trunk/user/tango/sys/win32/WsaSock.d
+END

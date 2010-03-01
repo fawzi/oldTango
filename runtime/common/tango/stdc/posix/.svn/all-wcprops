@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4882/trunk/runtime/common/tango/stdc/posix
+END
+config.d
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/tango/!svn/ver/4814/trunk/runtime/common/tango/stdc/posix/config.d
+END
+pthread_darwin.d
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/projects/tango/!svn/ver/4814/trunk/runtime/common/tango/stdc/posix/pthread_darwin.d
+END

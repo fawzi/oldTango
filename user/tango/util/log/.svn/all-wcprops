@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/tango/!svn/ver/4892/trunk/user/tango/util/log
+END
+Trace.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4814/trunk/user/tango/util/log/Trace.d
+END
+AppendSocket.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4892/trunk/user/tango/util/log/AppendSocket.d
+END
+Log.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4876/trunk/user/tango/util/log/Log.d
+END
+Config.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/user/tango/util/log/Config.d
+END
+AppendFile.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4892/trunk/user/tango/util/log/AppendFile.d
+END
+ConfigProps.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4892/trunk/user/tango/util/log/ConfigProps.d
+END
+AppendConsole.d
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4892/trunk/user/tango/util/log/AppendConsole.d
+END
+AppendFiles.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4892/trunk/user/tango/util/log/AppendFiles.d
+END
+AppendMail.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4892/trunk/user/tango/util/log/AppendMail.d
+END
+LayoutChainsaw.d
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4892/trunk/user/tango/util/log/LayoutChainsaw.d
+END
+LayoutDate.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4892/trunk/user/tango/util/log/LayoutDate.d
+END

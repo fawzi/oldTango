@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/darwin
+END
+sysctl.d
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/darwin/sysctl.d
+END
+machine.d
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/darwin/machine.d
+END
+errno.d
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/darwin/errno.d
+END
+fcntl.d
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/darwin/fcntl.d
+END
+unistd.d
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/darwin/unistd.d
+END
+socket.d
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/darwin/socket.d
+END

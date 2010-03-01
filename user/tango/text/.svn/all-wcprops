@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/tango/!svn/ver/4992/trunk/user/tango/text
+END
+Util.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/Util.d
+END
+UnicodeData.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/UnicodeData.d
+END
+Text.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/Text.d
+END
+Search.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/Search.d
+END
+Unicode.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/Unicode.d
+END
+Ascii.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/Ascii.d
+END
+Regex.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4992/trunk/user/tango/text/Regex.d
+END

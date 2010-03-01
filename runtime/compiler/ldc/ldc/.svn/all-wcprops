@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/ldc
+END
+intrinsics.di
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/ldc/intrinsics.di
+END
+cstdarg.di
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/ldc/cstdarg.di
+END
+vararg.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/ldc/vararg.d
+END
+bitmanip.d
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/ldc/bitmanip.d
+END
+llvmasm.di
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/ldc/ldc/llvmasm.di
+END

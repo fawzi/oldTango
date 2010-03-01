@@ -1,0 +1,41 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/runtime/common/tango/core/sync
+http://svn.dsource.org/projects/tango
+
+
+
+2009-09-21T14:16:54.353943Z
+4953
+fawzi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+94d23b9d-ec12-0410-b399-9fdf8a1d4f26
+
+Atomic.d
+file
+
+
+
+
+2009-09-22T21:07:42.000000Z
+b262d4c822b5feca846f05342e3f6946
+2009-09-21T14:16:54.353943Z
+4953
+fawzi
+has-props
+

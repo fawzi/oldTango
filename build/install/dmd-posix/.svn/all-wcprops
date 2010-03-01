@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4814/trunk/build/install/dmd-posix
+END
+tango-dmd-tool
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/tango/!svn/ver/4814/trunk/build/install/dmd-posix/tango-dmd-tool
+END
+installer.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4814/trunk/build/install/dmd-posix/installer.sh
+END
+mkinstaller.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/tango/!svn/ver/4814/trunk/build/install/dmd-posix/mkinstaller.sh
+END

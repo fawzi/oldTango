@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/projects/tango/!svn/ver/4462/trunk/example/text
+END
+xmlpath.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4458/trunk/example/text/xmlpath.d
+END
+xmlpull.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4462/trunk/example/text/xmlpull.d
+END
+localetime.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/3083/trunk/example/text/localetime.d
+END
+formatindex.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/2465/trunk/example/text/formatindex.d
+END
+token.d
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/2465/trunk/example/text/token.d
+END
+xmldom.d
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/tango/!svn/ver/4462/trunk/example/text/xmldom.d
+END
+formatalign.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/2465/trunk/example/text/formatalign.d
+END
+formatspec.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4197/trunk/example/text/formatspec.d
+END
+hamlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/3207/trunk/example/text/hamlet.xml
+END
+soap_mid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/3234/trunk/example/text/soap_mid.xml
+END
+xmlsax.d
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/tango/!svn/ver/4211/trunk/example/text/xmlsax.d
+END

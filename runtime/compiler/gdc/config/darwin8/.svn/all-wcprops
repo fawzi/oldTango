@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/darwin8
+END
+frag-unix
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/darwin8/frag-unix
+END
+frag-gen
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/darwin8/frag-gen
+END
+frag-math
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/darwin8/frag-math
+END

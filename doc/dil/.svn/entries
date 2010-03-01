@@ -1,0 +1,44 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/doc/dil
+http://svn.dsource.org/projects/tango
+
+
+
+2009-08-27T18:55:45.135418Z
+4898
+larsivi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+94d23b9d-ec12-0410-b399-9fdf8a1d4f26
+
+tango_doc.py
+file
+
+
+
+
+2009-08-28T17:11:01.000000Z
+93ec34b8ca21763d6d4bd62e1e1520a7
+2009-08-27T18:55:45.135418Z
+4898
+larsivi
+has-props
+
+data
+dir
+

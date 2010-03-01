@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/tango/!svn/ver/4613/trunk/example/networking
+END
+httpget.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4255/trunk/example/networking/httpget.d
+END
+socketserver.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4613/trunk/example/networking/socketserver.d
+END
+selector.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4613/trunk/example/networking/selector.d
+END
+netcopy.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4613/trunk/example/networking/netcopy.d
+END
+homepage.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/2465/trunk/example/networking/homepage.d
+END
+sockethello.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4613/trunk/example/networking/sockethello.d
+END

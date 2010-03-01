@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/tango/!svn/ver/4938/trunk/build/install/windows
+END
+switch.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/switch.d
+END
+licenses.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/licenses.txt
+END
+tango_setup.iss
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/tango_setup.iss
+END
+unzip.exe
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/unzip.exe
+END
+libbz2.lib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/libbz2.lib
+END
+jake.exe
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/jake.exe
+END
+build_nightly.r
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/build_nightly.r
+END
+switch_dmd.ico
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/switch_dmd.ico
+END
+post_installation.rtf
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/post_installation.rtf
+END
+pre_installation.rtf
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/pre_installation.rtf
+END
+switch_tango.ico
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/switch_tango.ico
+END
+build-switch.bat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/build-switch.bat
+END
+switch.rc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/switch.rc
+END
+zlib.lib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/zlib.lib
+END
+build_tango.d
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4938/trunk/build/install/windows/build_tango.d
+END
+tango_dmd_setup.iss
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/tango_dmd_setup.iss
+END
+tango_svn_setup.iss
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/tango/!svn/ver/4814/trunk/build/install/windows/tango_svn_setup.iss
+END
+install_dmd.d
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4830/trunk/build/install/windows/install_dmd.d
+END

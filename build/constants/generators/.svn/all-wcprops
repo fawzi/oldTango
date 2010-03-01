@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4814/trunk/build/constants/generators
+END
+sysctl.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/build/constants/generators/sysctl.c
+END
+machine.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4814/trunk/build/constants/generators/machine.c
+END
+errno.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/build/constants/generators/errno.c
+END
+fcntl.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/build/constants/generators/fcntl.c
+END
+unistd.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/build/constants/generators/unistd.c
+END
+socket.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/build/constants/generators/socket.c
+END

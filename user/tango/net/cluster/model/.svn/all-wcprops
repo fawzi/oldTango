@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/cluster/model
+END
+IMessage.d
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/cluster/model/IMessage.d
+END
+IChannel.d
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/cluster/model/IChannel.d
+END
+IConsumer.d
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/cluster/model/IConsumer.d
+END
+ICluster.d
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/cluster/model/ICluster.d
+END
+ICache.d
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/cluster/model/ICache.d
+END

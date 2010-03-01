@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo
+END
+ti_void.d
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_void.d
+END
+ti_wchar.d
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_wchar.d
+END
+ti_ptr.d
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_ptr.d
+END
+ti_Afloat.d
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_Afloat.d
+END
+ti_double.d
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_double.d
+END
+ti_delegate.d
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_delegate.d
+END
+ti_Adouble.d
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_Adouble.d
+END
+ti_char.d
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_char.d
+END
+ti_Acdouble.d
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_Acdouble.d
+END
+ti_uint.d
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_uint.d
+END
+ti_AC.d
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_AC.d
+END
+ti_ulong.d
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_ulong.d
+END
+ti_creal.d
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_creal.d
+END
+ti_ubyte.d
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_ubyte.d
+END
+ti_Aint.d
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_Aint.d
+END
+ti_ireal.d
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_ireal.d
+END
+ti_long.d
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_long.d
+END
+ti_short.d
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_short.d
+END
+ti_Along.d
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_Along.d
+END
+ti_byte.d
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_byte.d
+END
+ti_float.d
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_float.d
+END
+ti_cfloat.d
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_cfloat.d
+END
+ti_Acfloat.d
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_Acfloat.d
+END
+ti_cdouble.d
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_cdouble.d
+END
+ti_ifloat.d
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_ifloat.d
+END
+ti_dchar.d
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_dchar.d
+END
+ti_C.d
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_C.d
+END
+ti_idouble.d
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_idouble.d
+END
+ti_real.d
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_real.d
+END
+ti_ushort.d
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_ushort.d
+END
+ti_Areal.d
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_Areal.d
+END
+ti_Acreal.d
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_Acreal.d
+END
+ti_Ag.d
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_Ag.d
+END
+ti_int.d
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_int.d
+END
+ti_Ashort.d
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/shared/rt/typeinfo/ti_Ashort.d
+END

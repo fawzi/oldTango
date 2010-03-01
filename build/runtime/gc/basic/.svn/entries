@@ -1,0 +1,40 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/build/runtime/gc/basic
+http://svn.dsource.org/projects/tango
+
+
+
+2009-09-01T13:16:19.196110Z
+4912
+fawzi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+94d23b9d-ec12-0410-b399-9fdf8a1d4f26
+
+OBJDEFS.inc
+file
+
+
+
+
+2009-09-01T10:47:06.000000Z
+3519d3a398c7d50f6be3e3511bf1de33
+2009-09-01T13:16:19.196110Z
+4912
+fawzi
+

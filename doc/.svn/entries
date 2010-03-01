@@ -1,0 +1,78 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/doc
+http://svn.dsource.org/projects/tango
+
+
+
+2009-08-27T18:55:45.135418Z
+4898
+larsivi
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+94d23b9d-ec12-0410-b399-9fdf8a1d4f26
+
+quickref.pdf
+file
+
+
+
+
+2009-08-11T13:16:31.000000Z
+dbff5018d1cf64318ee2ad7b19af05df
+2007-04-21T18:35:06.241320Z
+2105
+kris
+has-props
+
+html
+dir
+
+TangoDocToXML.rb
+file
+
+
+
+
+2009-08-11T13:16:31.000000Z
+3595bf43f65e0362ab3d6933e218fb15
+2008-01-29T09:08:21.303893Z
+3143
+larsivi
+
+images
+dir
+
+bin
+dir
+
+dil
+dir
+
+dimple.d
+file
+
+
+
+
+2009-08-11T13:16:31.000000Z
+e68b1b332d3190286c8be410cdbde6f9
+2006-06-28T23:13:56.848544Z
+454
+jcomellas
+has-props
+

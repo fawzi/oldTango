@@ -1,0 +1,323 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/projects/tango/!svn/ver/4934/trunk/build/arch
+END
+osx-i386-dmd-tst.mak
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/build/arch/osx-i386-dmd-tst.mak
+END
+freebsd.inc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4923/trunk/build/arch/freebsd.inc
+END
+freebsd-i386-dmd-tst.mak
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4923/trunk/build/arch/freebsd-i386-dmd-tst.mak
+END
+MINGW32_NT-5.1-i686-ldc-dbg.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4814/trunk/build/arch/MINGW32_NT-5.1-i686-ldc-dbg.mak
+END
+MINGW32_NT-6.0-i686-ldc-dbg.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4870/trunk/build/arch/MINGW32_NT-6.0-i686-ldc-dbg.mak
+END
+gdc.rules
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4814/trunk/build/arch/gdc.rules
+END
+MINGW32_NT-6.1-i686-dmd-dbg.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4897/trunk/build/arch/MINGW32_NT-6.1-i686-dmd-dbg.mak
+END
+mingw.inc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4874/trunk/build/arch/mingw.inc
+END
+linux-i686-ldc-dbg.mak
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/build/arch/linux-i686-ldc-dbg.mak
+END
+MINGW32_NT-6.1-i686-ldc-opt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4897/trunk/build/arch/MINGW32_NT-6.1-i686-ldc-opt.mak
+END
+MINGW32_NT-5.1-i686-dmd-opt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4814/trunk/build/arch/MINGW32_NT-5.1-i686-dmd-opt.mak
+END
+ldc.rules
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4814/trunk/build/arch/ldc.rules
+END
+MINGW32_NT-6.0-i686-dmd-opt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4870/trunk/build/arch/MINGW32_NT-6.0-i686-dmd-opt.mak
+END
+osx-i386-gdc-dbg.mak
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/build/arch/osx-i386-gdc-dbg.mak
+END
+linux-x86_64-ldc-dbg.mak
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/build/arch/linux-x86_64-ldc-dbg.mak
+END
+MINGW32_NT-5.1-i686-ldc-tst.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4814/trunk/build/arch/MINGW32_NT-5.1-i686-ldc-tst.mak
+END
+osx-i386-ldc-dbg.mak
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/build/arch/osx-i386-ldc-dbg.mak
+END
+MINGW32_NT-6.0-i686-ldc-tst.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4870/trunk/build/arch/MINGW32_NT-6.0-i686-ldc-tst.mak
+END
+linux-i686-dmd-opt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/build/arch/linux-i686-dmd-opt.mak
+END
+linux-x86_64-dmd-opt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4841/trunk/build/arch/linux-x86_64-dmd-opt.mak
+END
+MINGW32_NT-6.1-i686-dmd-tst.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4897/trunk/build/arch/MINGW32_NT-6.1-i686-dmd-tst.mak
+END
+linux.inc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4882/trunk/build/arch/linux.inc
+END
+linux-i686-ldc-tst.mak
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/build/arch/linux-i686-ldc-tst.mak
+END
+osx-i386-dmd-opt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4880/trunk/build/arch/osx-i386-dmd-opt.mak
+END
+freebsd-i386-dmd-opt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4923/trunk/build/arch/freebsd-i386-dmd-opt.mak
+END
+osx-i386-gdc-tst.mak
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/build/arch/osx-i386-gdc-tst.mak
+END
+linux-x86_64-ldc-tst.mak
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/build/arch/linux-x86_64-ldc-tst.mak
+END
+osx-i386-ldc-tst.mak
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/build/arch/osx-i386-ldc-tst.mak
+END
+osx.inc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/tango/!svn/ver/4882/trunk/build/arch/osx.inc
+END
+MINGW32_NT-6.1-i686-ldc-dbg.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4897/trunk/build/arch/MINGW32_NT-6.1-i686-ldc-dbg.mak
+END
+MINGW32_NT-5.1-i686-dmd-dbg.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4868/trunk/build/arch/MINGW32_NT-5.1-i686-dmd-dbg.mak
+END
+MINGW32_NT-6.0-i686-dmd-dbg.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4870/trunk/build/arch/MINGW32_NT-6.0-i686-dmd-dbg.mak
+END
+dmd-win.rules
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4819/trunk/build/arch/dmd-win.rules
+END
+MINGW32_NT-6.0-i686-ldc-opt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4870/trunk/build/arch/MINGW32_NT-6.0-i686-ldc-opt.mak
+END
+MINGW32_NT-5.1-i686-ldc-opt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4814/trunk/build/arch/MINGW32_NT-5.1-i686-ldc-opt.mak
+END
+linux-i686-dmd-dbg.mak
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/build/arch/linux-i686-dmd-dbg.mak
+END
+MINGW32_NT-6.1-i686-dmd-opt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4897/trunk/build/arch/MINGW32_NT-6.1-i686-dmd-opt.mak
+END
+dmd.rules
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4814/trunk/build/arch/dmd.rules
+END
+ldcSo.rules
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4934/trunk/build/arch/ldcSo.rules
+END
+linux-x86_64-dmd-dbg.mak
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4841/trunk/build/arch/linux-x86_64-dmd-dbg.mak
+END
+linux-i686-ldc-opt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/build/arch/linux-i686-ldc-opt.mak
+END
+linux-x86_64-ldc-opt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4867/trunk/build/arch/linux-x86_64-ldc-opt.mak
+END
+osx-i386-gdc-opt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/build/arch/osx-i386-gdc-opt.mak
+END
+MINGW32_NT-6.1-i686-ldc-tst.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4897/trunk/build/arch/MINGW32_NT-6.1-i686-ldc-tst.mak
+END
+MINGW32_NT-5.1-i686-dmd-tst.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4868/trunk/build/arch/MINGW32_NT-5.1-i686-dmd-tst.mak
+END
+osx-i386-dmd-dbg.mak
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4931/trunk/build/arch/osx-i386-dmd-dbg.mak
+END
+MINGW32_NT-6.0-i686-dmd-tst.mak
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4870/trunk/build/arch/MINGW32_NT-6.0-i686-dmd-tst.mak
+END
+freebsd-i386-dmd-dbg.mak
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4923/trunk/build/arch/freebsd-i386-dmd-dbg.mak
+END
+linux-x86_64-ldc-soopt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/tango/!svn/ver/4934/trunk/build/arch/linux-x86_64-ldc-soopt.mak
+END
+osx-i386-ldc-opt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/build/arch/osx-i386-ldc-opt.mak
+END
+osx-i386-ldc-soopt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4934/trunk/build/arch/osx-i386-ldc-soopt.mak
+END
+linux-i686-dmd-tst.mak
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/build/arch/linux-i686-dmd-tst.mak
+END
+linux-x86_64-dmd-tst.mak
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4841/trunk/build/arch/linux-x86_64-dmd-tst.mak
+END

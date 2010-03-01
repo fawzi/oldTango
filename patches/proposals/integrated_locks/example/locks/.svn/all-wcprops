@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/projects/tango/!svn/ver/2913/trunk/patches/proposals/integrated_locks/example/locks
+END
+mutex.d
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/projects/tango/!svn/ver/2913/trunk/patches/proposals/integrated_locks/example/locks/mutex.d
+END

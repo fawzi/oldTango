@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4882/trunk/runtime/common/tango/stdc
+END
+stdio.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/runtime/common/tango/stdc/stdio.d
+END
+stdarg.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/runtime/common/tango/stdc/stdarg.d
+END
+config.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/runtime/common/tango/stdc/config.d
+END
+stdint.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4828/trunk/runtime/common/tango/stdc/stdint.d
+END
+stddef.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/runtime/common/tango/stdc/stddef.d
+END

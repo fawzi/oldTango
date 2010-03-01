@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/std
+END
+stdarg.di
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/std/stdarg.di
+END
+intrinsic.d
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/std/intrinsic.d
+END

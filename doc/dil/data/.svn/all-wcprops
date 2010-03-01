@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/projects/tango/!svn/ver/4838/trunk/doc/dil/data
+END
+xml_map.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4394/trunk/doc/dil/data/xml_map.d
+END
+dilconf.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4394/trunk/doc/dil/data/dilconf.d
+END
+pdf.css
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4394/trunk/doc/dil/data/pdf.css
+END
+lang_fi.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4394/trunk/doc/dil/data/lang_fi.d
+END
+html_map.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4394/trunk/doc/dil/data/html_map.d
+END
+macros_dil.ddoc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4394/trunk/doc/dil/data/macros_dil.ddoc
+END
+lang_en.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4394/trunk/doc/dil/data/lang_en.d
+END
+xml.css
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4394/trunk/doc/dil/data/xml.css
+END
+lang_tr.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4394/trunk/doc/dil/data/lang_tr.d
+END
+html.css
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/tango/!svn/ver/4394/trunk/doc/dil/data/html.css
+END
+lang_de.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4394/trunk/doc/dil/data/lang_de.d
+END
+predefined.ddoc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4394/trunk/doc/dil/data/predefined.ddoc
+END
+predefined_xml.ddoc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4394/trunk/doc/dil/data/predefined_xml.ddoc
+END

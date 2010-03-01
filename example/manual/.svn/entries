@@ -1,0 +1,41 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/example/manual
+http://svn.dsource.org/projects/tango
+
+
+
+2008-03-19T04:13:13.410081Z
+3380
+kris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+94d23b9d-ec12-0410-b399-9fdf8a1d4f26
+
+chapterStorage.d
+file
+
+
+
+
+2009-08-11T13:16:32.000000Z
+18cf98d1fa8a6bd7fa1f7ce3efa9a8d5
+2008-03-19T04:13:13.410081Z
+3380
+kris
+has-props
+

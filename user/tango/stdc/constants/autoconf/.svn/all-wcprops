@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/autoconf
+END
+sysctl.d
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/autoconf/sysctl.d
+END
+machine.d
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/autoconf/machine.d
+END
+errno.d
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/autoconf/errno.d
+END
+fcntl.d
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/autoconf/fcntl.d
+END
+unistd.d
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/autoconf/unistd.d
+END
+socket.d
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/autoconf/socket.d
+END

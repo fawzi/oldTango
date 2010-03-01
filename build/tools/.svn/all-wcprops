@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/projects/tango/!svn/ver/4936/trunk/build/tools
+END
+dep0.sh
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/tango/!svn/ver/4930/trunk/build/tools/dep0.sh
+END
+mkMods.sh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/tango/!svn/ver/4930/trunk/build/tools/mkMods.sh
+END
+toMakeDeps.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4930/trunk/build/tools/toMakeDeps.sh
+END
+archName.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4936/trunk/build/tools/archName.sh
+END
+getCompVers.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4930/trunk/build/tools/getCompVers.sh
+END
+toMakeDeps2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4930/trunk/build/tools/toMakeDeps2.sh
+END
+modName.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4930/trunk/build/tools/modName.sh
+END
+guessCompiler.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4930/trunk/build/tools/guessCompiler.sh
+END
+excludeDep.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4930/trunk/build/tools/excludeDep.sh
+END
+mkIntermediate.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4930/trunk/build/tools/mkIntermediate.sh
+END
+modName2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4930/trunk/build/tools/modName2.sh
+END
+execOnFilteredFiles.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4930/trunk/build/tools/execOnFilteredFiles.sh
+END
+mkDi.sh
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/tango/!svn/ver/4930/trunk/build/tools/mkDi.sh
+END

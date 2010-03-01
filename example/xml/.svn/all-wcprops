@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/projects/tango/!svn/ver/4296/trunk/example/xml
+END
+iterate.d
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/tango/!svn/ver/4296/trunk/example/xml/iterate.d
+END
+attrquery.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4285/trunk/example/xml/attrquery.d
+END
+xpath.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/tango/!svn/ver/4284/trunk/example/xml/xpath.xml
+END
+loadparse.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4285/trunk/example/xml/loadparse.d
+END
+filterquery.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4296/trunk/example/xml/filterquery.d
+END

@@ -1,0 +1,175 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/build
+http://svn.dsource.org/projects/tango
+
+
+
+2009-09-16T12:54:59.376272Z
+4938
+DRK
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+94d23b9d-ec12-0410-b399-9fdf8a1d4f26
+
+runtime
+dir
+
+unittest-ldc.sh
+file
+
+
+
+
+2009-09-01T12:55:46.000000Z
+831c1f7356ad385ff4189f23b0a4b288
+2009-09-01T13:16:19.196110Z
+4912
+fawzi
+has-props
+
+unittest-dmd.sh
+file
+
+
+
+
+2009-09-03T17:39:52.000000Z
+fe3839c3b5e39a3ca366032508f8f2d6
+2009-08-25T18:37:55.277707Z
+4880
+fawzi
+has-props
+
+tools
+dir
+
+unittest-dsss.sh
+file
+
+
+
+
+2009-08-11T13:16:23.000000Z
+6517f0b1fd1a2de7c37a28909a74c067
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+build-tango-app.exe
+file
+
+
+
+
+2009-09-16T14:52:12.000000Z
+69556fdc4b28587932cbd28e68836757
+2009-09-16T12:54:59.376272Z
+4938
+DRK
+has-props
+
+build-dmd.bat
+file
+
+
+
+
+2009-09-01T09:01:46.000000Z
+1ab8d1c61f84499f75e48e875b185496
+2009-09-01T09:03:00.289482Z
+4907
+fawzi
+has-props
+
+install
+dir
+
+build.sh
+file
+
+
+
+
+2009-09-09T14:22:49.000000Z
+df8c020fe9fb29d4af588a55ac95307c
+2009-09-10T17:47:13.190310Z
+4933
+fawzi
+has-props
+
+build-tango.bat
+file
+
+
+
+
+2009-08-11T13:16:23.000000Z
+a665a5be02252ff958dfed56ef715efc
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+install_dmd.exe
+file
+
+
+
+
+2009-08-11T13:16:23.000000Z
+2c3235c59683ecaba598d6b4cda0ba67
+2009-08-06T16:32:49.435128Z
+4830
+DRK
+has-props
+
+dmd-win32.mak
+file
+
+
+
+
+2009-08-29T21:47:36.000000Z
+2baae90f77ea550b254eaa689cf8699e
+2009-08-29T21:48:38.672747Z
+4905
+fawzi
+has-props
+
+constants
+dir
+
+arch
+dir
+
+user
+dir
+
+build-install-all.bat
+file
+
+
+
+
+2009-08-25T07:03:20.000000Z
+a21978fbf1915cac8fed480f3a20faa7
+2009-08-25T05:02:14.176841Z
+4877
+kris
+

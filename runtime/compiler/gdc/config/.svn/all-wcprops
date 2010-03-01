@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config
+END
+ldfuncs-darwin
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/ldfuncs-darwin
+END
+unix-head
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/unix-head
+END
+unix-mid
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/unix-mid
+END
+noldfuncs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/noldfuncs
+END
+nosqrtf
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/nosqrtf
+END
+config-tail
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/config-tail
+END
+gen_unix.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/gen_unix.c
+END
+ldfuncs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/ldfuncs
+END
+ldfuncs-ppclinux
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/ldfuncs-ppclinux
+END
+sqrtf
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/sqrtf
+END
+gen_config1.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/gen_config1.c
+END
+noldfuncs33
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/noldfuncs33
+END
+gen_math.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/gen_math.c
+END
+config-head
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/config-head
+END
+ldfuncs33
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/ldfuncs33
+END
+makestruct.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/makestruct.h
+END
+config-mid
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/config-mid
+END

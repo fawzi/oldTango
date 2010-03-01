@@ -1,0 +1,186 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/user/tango/net
+http://svn.dsource.org/projects/tango
+
+
+
+2009-08-19T16:37:01.196072Z
+4865
+larsivi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+94d23b9d-ec12-0410-b399-9fdf8a1d4f26
+
+http
+dir
+
+InternetAddress.d
+file
+
+
+
+
+2009-08-11T13:16:37.000000Z
+724be2ab370bd3de40559419e6956ef9
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+SocketListener.d
+file
+
+
+
+
+2009-08-11T13:16:37.000000Z
+c360001ad5554da5ef33766f1991d4a1
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+Uri.d
+file
+
+
+
+
+2009-08-11T13:16:37.000000Z
+41c6eb524015c201da71ac7d5ddb204e
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+cluster
+dir
+
+SSLSocketConduit.d
+file
+
+
+
+
+2009-08-11T13:16:37.000000Z
+31b68c8c6a38afdd4b66b136f473e04d
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+
+SSLServerSocket.d
+file
+
+
+
+
+2009-08-11T13:16:37.000000Z
+644a0ae84e8d6ccf0c5ba56334d2fc4d
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+
+DatagramConduit.d
+file
+
+
+
+
+2009-08-11T13:16:37.000000Z
+983b011eb8a455afa0c8be630c30ebdb
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+ftp
+dir
+
+device
+dir
+
+SocketConduit.d
+file
+
+
+
+
+2009-08-11T13:16:37.000000Z
+cd11671c1a7b84b10ec030171a14a314
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+model
+dir
+
+ServerSocket.d
+file
+
+
+
+
+2009-08-11T13:16:37.000000Z
+15d2c43a75c23094918251cc8e05d47c
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
+PKI.d
+file
+
+
+
+
+2009-08-11T13:16:37.000000Z
+1b6c571c8939a31b1aa634974c5d19e2
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+
+Socket.d
+file
+
+
+
+
+2009-08-13T12:21:07.000000Z
+1cf7b0517505346904909ff8ed3b0d5b
+2009-08-11T15:14:44.513338Z
+4848
+fawzi
+has-props
+
+util
+dir
+
+MulticastConduit.d
+file
+
+
+
+
+2009-08-11T13:16:37.000000Z
+1bf2128970641b20ee62902508774036
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+

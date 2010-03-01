@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4925/trunk/runtime/compiler/dmd
+END
+minit.asm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/dmd/minit.asm
+END
+deh.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/dmd/deh.c
+END
+gcosx.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/dmd/gcosx.c
+END
+object_.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4925/trunk/runtime/compiler/dmd/object_.d
+END
+complex.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/dmd/complex.c
+END
+mars.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/dmd/mars.h
+END
+monitor.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/dmd/monitor.c
+END
+minit.obj
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/dmd/minit.obj
+END
+win32.mak
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4910/trunk/runtime/compiler/dmd/win32.mak
+END
+cConst.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/dmd/cConst.c
+END
+critical.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/dmd/critical.c
+END
+OBJECTDEFS_WIN.inc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4899/trunk/runtime/compiler/dmd/OBJECTDEFS_WIN.inc
+END
+invariant.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/dmd/invariant.d
+END

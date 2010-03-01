@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4179/trunk/example/synchronization
+END
+mutex.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/2913/trunk/example/synchronization/mutex.d
+END
+semaphore.d
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4179/trunk/example/synchronization/semaphore.d
+END
+barrier.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/2913/trunk/example/synchronization/barrier.d
+END
+condition.d
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/2913/trunk/example/synchronization/condition.d
+END
+readwritemutex.d
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/tango/!svn/ver/2465/trunk/example/synchronization/readwritemutex.d
+END

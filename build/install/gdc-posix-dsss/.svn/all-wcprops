@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/build/install/gdc-posix-dsss
+END
+uninstall.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/tango/!svn/ver/4814/trunk/build/install/gdc-posix-dsss/uninstall.sh
+END
+installer.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/tango/!svn/ver/4814/trunk/build/install/gdc-posix-dsss/installer.sh
+END
+mkinstaller.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/tango/!svn/ver/4814/trunk/build/install/gdc-posix-dsss/mkinstaller.sh
+END

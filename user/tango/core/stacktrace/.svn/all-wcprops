@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4940/trunk/user/tango/core/stacktrace
+END
+Demangler.d
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/tango/!svn/ver/4917/trunk/user/tango/core/stacktrace/Demangler.d
+END
+TraceExceptions.d
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/tango/!svn/ver/4814/trunk/user/tango/core/stacktrace/TraceExceptions.d
+END
+WinStackTrace.d
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4940/trunk/user/tango/core/stacktrace/WinStackTrace.d
+END
+LinuxStackTrace.d
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/tango/!svn/ver/4814/trunk/user/tango/core/stacktrace/LinuxStackTrace.d
+END
+StackTrace.d
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4814/trunk/user/tango/core/stacktrace/StackTrace.d
+END

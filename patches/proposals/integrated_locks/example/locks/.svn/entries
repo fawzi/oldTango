@@ -1,0 +1,41 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/patches/proposals/integrated_locks/example/locks
+http://svn.dsource.org/projects/tango
+
+
+
+2007-11-23T20:39:03.957572Z
+2913
+kris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+94d23b9d-ec12-0410-b399-9fdf8a1d4f26
+
+mutex.d
+file
+
+
+
+
+2009-08-11T13:16:31.000000Z
+ef6ea35e331e6559993a5e2ed2753b45
+2007-11-23T20:39:03.957572Z
+2913
+kris
+has-props
+

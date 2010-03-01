@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/4814/trunk/user/tango/util/container
+END
+SortedMap.d
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/tango/!svn/ver/4814/trunk/user/tango/util/container/SortedMap.d
+END
+HashSet.d
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/user/tango/util/container/HashSet.d
+END
+CircularList.d
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/tango/!svn/ver/4814/trunk/user/tango/util/container/CircularList.d
+END
+Clink.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/util/container/Clink.d
+END
+Slink.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/util/container/Slink.d
+END
+HashMap.d
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/user/tango/util/container/HashMap.d
+END
+Container.d
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/tango/!svn/ver/4814/trunk/user/tango/util/container/Container.d
+END
+LinkedList.d
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/tango/!svn/ver/4814/trunk/user/tango/util/container/LinkedList.d
+END
+RedBlack.d
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4814/trunk/user/tango/util/container/RedBlack.d
+END

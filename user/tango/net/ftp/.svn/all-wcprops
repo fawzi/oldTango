@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/ftp
+END
+FtpClient.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/ftp/FtpClient.d
+END
+Telnet.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/ftp/Telnet.d
+END

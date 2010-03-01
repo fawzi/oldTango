@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/tango/!svn/ver/4865/trunk/user/tango/net
+END
+SocketListener.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/SocketListener.d
+END
+InternetAddress.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/InternetAddress.d
+END
+SocketConduit.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/SocketConduit.d
+END
+Uri.d
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/Uri.d
+END
+ServerSocket.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/ServerSocket.d
+END
+SSLSocketConduit.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/SSLSocketConduit.d
+END
+SSLServerSocket.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/SSLServerSocket.d
+END
+PKI.d
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/PKI.d
+END
+DatagramConduit.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/DatagramConduit.d
+END
+Socket.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4848/trunk/user/tango/net/Socket.d
+END
+MulticastConduit.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/net/MulticastConduit.d
+END

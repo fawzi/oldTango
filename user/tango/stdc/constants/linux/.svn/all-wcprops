@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4925/trunk/user/tango/stdc/constants/linux
+END
+sysctl.d
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/linux/sysctl.d
+END
+errno.d
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/linux/errno.d
+END
+fcntl.d
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/linux/fcntl.d
+END
+unistd.d
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/constants/linux/unistd.d
+END
+socket.d
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/tango/!svn/ver/4925/trunk/user/tango/stdc/constants/linux/socket.d
+END

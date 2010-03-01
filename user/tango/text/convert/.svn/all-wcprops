@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4966/trunk/user/tango/text/convert
+END
+Integer.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/convert/Integer.d
+END
+Layout.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4879/trunk/user/tango/text/convert/Layout.d
+END
+Utf.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4966/trunk/user/tango/text/convert/Utf.d
+END
+TimeStamp.d
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/convert/TimeStamp.d
+END
+UnicodeBom.d
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/convert/UnicodeBom.d
+END
+Float.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/convert/Float.d
+END
+Format.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/convert/Format.d
+END
+DateTime.d
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/tango/!svn/ver/4814/trunk/user/tango/text/convert/DateTime.d
+END

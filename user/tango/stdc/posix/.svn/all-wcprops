@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/tango/!svn/ver/4929/trunk/user/tango/stdc/posix
+END
+time.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4881/trunk/user/tango/stdc/posix/time.d
+END
+setjmp.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/setjmp.d
+END
+unistd.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/unistd.d
+END
+fcntl.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/fcntl.d
+END
+poll.d
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/poll.d
+END
+ucontext.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4923/trunk/user/tango/stdc/posix/ucontext.d
+END
+signal.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4928/trunk/user/tango/stdc/posix/signal.d
+END
+inttypes.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/inttypes.d
+END
+timer.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4882/trunk/user/tango/stdc/posix/timer.d
+END
+stdlib.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/stdlib.d
+END
+termios.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/termios.d
+END
+stdio.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/stdio.d
+END
+utime.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/utime.d
+END
+semaphore.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/semaphore.d
+END
+dirent.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/dirent.d
+END
+dlfcn.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/dlfcn.d
+END
+sched.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/sched.d
+END
+pthread.d
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/pthread.d
+END
+pwd.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4814/trunk/user/tango/stdc/posix/pwd.d
+END
+netdb.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4848/trunk/user/tango/stdc/posix/netdb.d
+END

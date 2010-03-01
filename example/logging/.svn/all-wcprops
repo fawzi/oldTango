@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/tango/!svn/ver/3616/trunk/example/logging
+END
+chainsaw.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/3485/trunk/example/logging/chainsaw.d
+END
+context.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/3616/trunk/example/logging/context.d
+END
+logging.d
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/tango/!svn/ver/3616/trunk/example/logging/logging.d
+END
+multilog.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/3485/trunk/example/logging/multilog.d
+END

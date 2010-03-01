@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projects/tango/!svn/ver/4865/trunk/user/tango/io
+END
+Console.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/Console.d
+END
+Stdout.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/Stdout.d
+END
+FileSystem.d
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/tango/!svn/ver/4864/trunk/user/tango/io/FileSystem.d
+END
+FileScan.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/FileScan.d
+END
+UnicodeFile.d
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/UnicodeFile.d
+END
+Buffer.d
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/Buffer.d
+END
+Path.d
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/Path.d
+END
+FilePath.d
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/FilePath.d
+END

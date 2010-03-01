@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/tango/!svn/ver/4859/trunk/user/tango/io/vfs
+END
+ZipFolder.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4859/trunk/user/tango/io/vfs/ZipFolder.d
+END
+LinkedFolder.d
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/vfs/LinkedFolder.d
+END
+VirtualFolder.d
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/vfs/VirtualFolder.d
+END
+FtpFolder.d
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/vfs/FtpFolder.d
+END
+FileFolder.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/4814/trunk/user/tango/io/vfs/FileFolder.d
+END

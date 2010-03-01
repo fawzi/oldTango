@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/projects/tango/!svn/ver/4013/trunk/patches
+END
+BacktraceHack-DMD-Win32.diff
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/tango/!svn/ver/2569/trunk/patches/BacktraceHack-DMD-Win32.diff
+END
+ImprovedUnitTests.diff
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/tango/!svn/ver/2465/trunk/patches/ImprovedUnitTests.diff
+END
+build-posix-mingw.patch
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/tango/!svn/ver/2957/trunk/patches/build-posix-mingw.patch
+END

@@ -1,0 +1,16 @@
+Unix
+
+GNU_Semaphore_Mach
+
+
+
+
+
+
+GNU_Need_execvpe
+GNU_Need_spawnvp
+GNU_Have_strtold
+GNU_BsdSockets_salen
+
+GNU_Unix_Have_MMap
+GNU_Unix_Have_getpwnam_r

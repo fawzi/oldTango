@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/skyos
+END
+frag-unix
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/skyos/frag-unix
+END
+frag-gen
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/skyos/frag-gen
+END
+frag-math
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/tango/!svn/ver/4814/trunk/runtime/compiler/gdc/config/skyos/frag-math
+END

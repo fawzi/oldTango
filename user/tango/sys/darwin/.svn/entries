@@ -1,0 +1,41 @@
+8
+
+dir
+4998
+http://svn.dsource.org/projects/tango/trunk/user/tango/sys/darwin
+http://svn.dsource.org/projects/tango
+
+
+
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+94d23b9d-ec12-0410-b399-9fdf8a1d4f26
+
+darwin.d
+file
+
+
+
+
+2009-08-11T13:16:45.000000Z
+97618546284509d6cb2b9d946b762ef9
+2009-08-03T22:17:08.412710Z
+4814
+fawzi
+has-props
+
