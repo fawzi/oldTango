@@ -2697,11 +2697,11 @@ private
                 stmxcsr [RSP];
                 sub RSP, 4;
                 //version(SynchroFloatExcept){
-                //    fstcw [RSP];
-                //    fwait;
+                    fstcw [RSP];
+                    fwait;
                 //} else {
-                    fnstcw [RSP];
-                    fnclex;
+                //    fnstcw [RSP];
+                //    fnclex;
                 //}
 
                 // store oldp again with more accurate address
@@ -3566,7 +3566,7 @@ private:
             push( 0x00000000_00000000 );                            // R13
             push( 0x00000000_00000000 );                            // R14
             push( 0x00000000_00000000 );                            // R15
-            push( 0x00001f80_01df0000 );                            // MXCSR (32 bits), x87 control (16 bits), (unused)
+            push( 0x00001f80_0000037f );                            // MXCSR (32 bits), unused (16 bits) , x87 control (16 bits)
         }
         else version( AsmPPC_Posix )
         {
