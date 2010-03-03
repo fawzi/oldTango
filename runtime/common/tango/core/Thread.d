@@ -2158,9 +2158,9 @@ body
                 recoverLoop2: while(flagGet(suspendCount)>0){
                     for (size_t i=1000;i!=0;--i){
                         Thread.yield();
-                        if (flagGet(suspendCount)==suspendedCount) break recoverLoop2;
+                        if (flagGet(suspendCount)==0) break recoverLoop2;
                         if (++icycle==100_000){
-                            printf("waited %d cycles for thread recovery,  suspendCount=%d, should be %d\nAtomic ops do not work?\nContinuing wait...\n",icycle,suspendCount,suspendedCount);
+                            printf("waited %d cycles for thread recovery,  suspendCount=%d, should be %d\nAtomic ops do not work?\nContinuing wait...\n",icycle,suspendCount,0);
                         }
                     }
                     Thread.sleep(0.0001);
