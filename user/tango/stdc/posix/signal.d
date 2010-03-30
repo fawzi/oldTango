@@ -1098,6 +1098,14 @@ else version ( solaris )
         pthread_attr_t*         sigev_notify_attributes;
         private int             __sigev_pad2;
     }
+} else version (darwin){
+    struct sigevent {
+     int sigev_notify;
+     int sigev_signo;
+     sigval sigev_value;
+     void function(sigval) sigev_notify_function;
+     pthread_attr_t *sigev_notify_attributes;
+    }
 }
 
 //

@@ -1957,11 +1957,15 @@ extern (C) void thread_suspendAll()
                     version(AtomicSuspendCount){
                         version(SuspendOneAtTime){ // when debugging suspending all threads at once might give "lost" signals
                             int icycle=0;
-                            while (flagGet(suspendCount)!=suspendedCount){
-                                if (++icycle==100_000){
-                                    printf("waited %d cycles for thread suspension,  suspendCount=%d, should be %d\nAtomic ops do not work?\nContinuing wait...\n",icycle,suspendCount,suspendedCount);
+                            suspendLoop: while (flagGet(suspendCount)!=suspendedCount){
+                                for (size_t i=1000;i!=0;--i){
+                                    if (flagGet(suspendCount)==suspendedCount) break suspendLoop;
+                                    if (++icycle==100_000){
+                                        printf("waited %d cycles for thread suspension,  suspendCount=%d, should be %d\nAtomic ops do not work?\nContinuing wait...\n",icycle,suspendCount,suspendedCount);
+                                    }
+                                    Thread.yield();
                                 }
-                                Thread.yield();
+                                Thread.sleep(0.0001);
                             }
                         }
                     }
@@ -2023,11 +2027,15 @@ extern (C) void thread_suspendAll()
         {
             version(AtomicSuspendCount){
                 int icycle=0;
-                while (flagGet(suspendCount)!=suspendedCount){
-                    if (++icycle==100_000){
-                        printf("waited %d cycles for thread suspension,  suspendCount=%d, should be %d\nAtomic ops do not work?\nContinuing wait...\n",icycle,suspendCount,suspendedCount);
+                suspendLoop2: while (flagGet(suspendCount)!=suspendedCount){
+                    for (size_t i=1000;i!=0;--i){
+                        if (flagGet(suspendCount)==suspendedCount) break suspendLoop2;
+                        if (++icycle==1000_000){
+                            printf("waited %d cycles for thread suspension,  suspendCount=%d, should be %d\nAtomic ops do not work?\nContinuing wait...\n",icycle,suspendCount,suspendedCount);
+                        }
+                        Thread.yield();
                     }
-                    Thread.yield();
+                    Thread.sleep(0.0001);
                 }
             }
         }
@@ -2103,11 +2111,15 @@ body
                     version(SuspendOneAtTime){ // when debugging suspending all threads at once might give "lost" signals
                         --suspendedCount;
                         int icycle=0;
-                        while(flagGet(suspendCount)>suspendedCount){
-                            Thread.yield();
-                            if (++icycle==100_000){
-                                printf("waited %d cycles for thread recovery,  suspendCount=%d, should be %d\nAtomic ops do not work?\nContinuing wait...\n",icycle,suspendCount,suspendedCount);
+                        recoverLoop: while(flagGet(suspendCount)>suspendedCount){
+                            for (size_t i=1000;i!=0;--i){
+                                if (flagGet(suspendCount)==suspendedCount) break recoverLoop;
+                                if (++icycle==100_000){
+                                    printf("waited %d cycles for thread recover,  suspendCount=%d, should be %d\nAtomic ops do not work?\nContinuing wait...\n",icycle,suspendCount,suspendedCount);
+                                }
+                                Thread.yield();
                             }
+                            Thread.sleep(0.0001);
                         }
                     }
                 } else {
@@ -2143,11 +2155,15 @@ body
             }
             version(AtomicSuspendCount){
                 int icycle=0;
-                while(flagGet(suspendCount)>0){
-                    Thread.yield();
-                    if (++icycle==100_000){
-                        printf("waited %d cycles for thread recovery,  suspendCount=%d, should be %d\nAtomic ops do not work?\nContinuing wait...\n",icycle,suspendCount,0);
+                recoverLoop2: while(flagGet(suspendCount)>0){
+                    for (size_t i=1000;i!=0;--i){
+                        Thread.yield();
+                        if (flagGet(suspendCount)==0) break recoverLoop2;
+                        if (++icycle==100_000){
+                            printf("waited %d cycles for thread recovery,  suspendCount=%d, should be %d\nAtomic ops do not work?\nContinuing wait...\n",icycle,suspendCount,0);
+                        }
                     }
+                    Thread.sleep(0.0001);
                 }
             }
         }
@@ -2697,11 +2713,11 @@ private
                 stmxcsr [RSP];
                 sub RSP, 4;
                 //version(SynchroFloatExcept){
-                //    fstcw [RSP];
-                //    fwait;
+                    fstcw [RSP];
+                    fwait;
                 //} else {
-                    fnstcw [RSP];
-                    fnclex;
+                //    fnstcw [RSP];
+                //    fnclex;
                 //}
 
                 // store oldp again with more accurate address
@@ -3566,7 +3582,7 @@ private:
             push( 0x00000000_00000000 );                            // R13
             push( 0x00000000_00000000 );                            // R14
             push( 0x00000000_00000000 );                            // R15
-            push( 0x00001f80_01df0000 );                            // MXCSR (32 bits), x87 control (16 bits), (unused)
+            push( 0x00001f80_0000037f );                            // MXCSR (32 bits), unused (16 bits) , x87 control (16 bits)
         }
         else version( AsmPPC_Posix )
         {

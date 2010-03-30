@@ -62,7 +62,7 @@ class DataInput : InputFilter
         }
 
         private bool            flip;
-        protected InputStream   input;
+        public InputStream   input;
         private Allocate        allocator;
 
         private alias void[] delegate (uint) Allocate;

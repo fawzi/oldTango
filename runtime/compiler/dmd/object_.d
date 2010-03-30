@@ -1100,6 +1100,7 @@ class Exception : Object
         if (next){
             sink("\n++++++++++++++++\n");
             next.writeOut(sink);
+            sink("\n++++++++++++++++\n");
         }
     }
 }

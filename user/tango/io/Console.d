@@ -641,9 +641,13 @@ static this ()
         (good idea from Frits Van Bommel)
 
 ******************************************************************************/
+extern(C) void thread_sleep(double period);
 
 static ~this()
 {
+    try{
+        thread_sleep(0.002);
+        
         // workaround LDC bug for now ...
         version (LDC)
                 {
@@ -652,10 +656,19 @@ static ~this()
                 }
         else
            {
-           synchronized (Cout)
-                         Cout.flush;
-
-           synchronized (Cerr)
-                         Cerr.flush;
+           synchronized (Cout){
+               synchronized(Cout.output){
+                   Cout.flush;
+               }
            }
+
+           synchronized (Cerr){
+               synchronized(Cerr.output){
+                   Cerr.flush;
+               }
+           }
+           }
+       } catch(Exception e){
+           // ignoring errors (concurrent access by background threads)
+       }
 }
