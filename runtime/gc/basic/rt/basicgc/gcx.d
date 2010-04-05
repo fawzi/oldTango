@@ -104,6 +104,8 @@ import cImports=rt.cImports: calloc, free, malloc, realloc, memcpy, memmove, mem
 debug(THREADINVARIANT) private import tango.stdc.posix.pthread;
 debug(PRINTF) private import tango.stdc.posix.pthread : pthread_self, pthread_t;
 debug private import tango.stdc.stdio : printf;
+private import tango.stdc.stdio : printf; // pippo
+private import tango.stdc.stdlib: abort;
 version (GNU)
 {
     // BUG: The following import will likely not work, since the gcc
@@ -1602,7 +1604,7 @@ struct Gcx
     void Invariant() { }
 
 
-    invariant
+    void invariantTest()
     {
         if (inited)
         {
@@ -1614,6 +1616,10 @@ struct Gcx
 
             for (i = 0; i < npools; i++)
             {   Pool *pool = pooltable[i];
+                if (pool is null){
+                    printf("pool was null in gcx\n"); // pippo
+                    abort();
+                }
 
                 pool.Invariant();
                 if (i == 0)
@@ -1683,6 +1689,11 @@ struct Gcx
         nroots++;
     }
 
+    invariant{
+        // this should aquire the gc lock :(... but this might change some synchronization...
+        // switching it off for now)
+        // invariantTest();
+    }
 
     /**
      *
