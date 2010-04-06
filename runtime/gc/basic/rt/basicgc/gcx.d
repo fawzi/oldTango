@@ -1690,8 +1690,8 @@ struct Gcx
     }
 
     invariant{
-        // this should aquire the gc lock :(... but this might change some synchronization...
-        // switching it off for now)
+        // invariantTest should aquire the gc lock :(... but this might change some synchronization and
+        // slows down gc_malloc much, switching it off for now)
         // invariantTest();
     }
 
