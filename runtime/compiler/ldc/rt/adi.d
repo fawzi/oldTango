@@ -63,11 +63,9 @@ private
 
 extern (C) char[] _adReverseChar(char[] a)
 {
-printf("enter _adReverseChar\n");
     bool hadErrors = false;
     if (a.length > 1)
     {
-printf("_adReverseChar will reverse\n");
         char[6] tmp;
         char[6] tmplo;
         char* lo = a.ptr;
@@ -75,8 +73,6 @@ printf("_adReverseChar will reverse\n");
 
         while (lo < hi)
         {
-	printf("_adReverseChar looping %p %p\n",lo,hi);
-
 	   auto clo = *lo;
             auto chi = *hi;
 
@@ -91,13 +87,13 @@ printf("_adReverseChar will reverse\n");
                 continue;
             }
 
-            size_t stridelo = UTF8stride[clo];
+            int stridelo = UTF8stride[clo];
             if (stridelo > 6) { // invalid UTF-8 0xFF 
                 stridelo = 1; 
                 hadErrors=true;
             }
 
-            size_t stridehi = 1;
+            int stridehi = 1;
             while ((chi & 0xC0) == 0x80 && hi >= lo)
             {
                 chi = *--hi;
@@ -134,13 +130,11 @@ printf("_adReverseChar will reverse\n");
             memcpy(hi + stridehi - stridelo, tmplo.ptr, stridelo);
 
             lo += stridehi;
-            hi = hi - 1 + (stridehi - stridelo);
+            hi = hi - 1 + cast(ptrdiff_t)(stridehi - stridelo);
         }
     }
-    printf("_adReverseChar did loop");
     if (hadErrors)
         throw new Exception("invalid UTF-8 sequence",__FILE__,__LINE__);
-printf("_adReverseChar clean end");
     return a;
 }
 
