@@ -1389,5 +1389,5 @@ private struct Buffer
 static Demangler demangler;
 
 static this(){
-    demangler=new Demangler(1);
+    demangler=new Demangler(3);
 }
