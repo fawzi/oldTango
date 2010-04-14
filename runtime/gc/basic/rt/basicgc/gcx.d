@@ -591,7 +591,7 @@ class GC
         if (bits)
         {
             Pool *pool = gcx.findPool(p);
-            assert(pool);
+            assert(pool!is null,"pool is null!");
 
             gcx.setBits(pool, cast(size_t)(p - pool.baseAddr) / 16, bits);
         }

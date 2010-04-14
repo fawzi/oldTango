@@ -1360,7 +1360,14 @@ private struct Buffer
 
     void append (char[] s)
     {
-        assert(this.length+s.length<=data.length);
+        if(this.length+s.length>data.length){
+            // truncating...
+            while(length<data.length){
+                data[length]='.';
+                ++length;
+            }
+            return;
+        }
         size_t len=this.length+s.length;
         if (len>data.length) len=data.length;
         data[this.length .. len] = s[0..len-this.length];
@@ -1369,7 +1376,9 @@ private struct Buffer
 
     void append (char c)
     {
-        assert(this.length<data.length);
+        if(length==data.length){
+            return;
+        }
         data[this.length .. this.length + 1] = c;
         this.length += 1;
     }
