@@ -44,6 +44,16 @@ struct Heap (T, bool Min, alias onMove = defaultSwapCallback!(T))
         // The index of the cell into which the next element will go.
         private uint    next;
 
+        /// returns the internal data (heap)
+        T[] data(){
+            return heap[0..next];
+        }
+        /// sets the inernal data
+        void data(T[] d){
+            heap=d;
+            next=d.length;
+        }
+        
         /** Inserts the given element into the heap. */
         void push (T t)
         {
