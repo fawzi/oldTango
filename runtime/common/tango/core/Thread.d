@@ -1455,7 +1455,7 @@ private:
     }
 
 
-    static struct Context
+    public static struct Context
     {
         void*           bstack,
                         tstack;
@@ -2759,6 +2759,18 @@ private
 // Fiber
 ////////////////////////////////////////////////////////////////////////////////
 
+private char[] ptrToStr(size_t addr){
+    char[] digits="0123456789ABCDEF";
+    enum{ nDigits=size_t.sizeof*2 }
+    char[] res=new char[](nDigits);
+    size_t addrAtt=addr;
+    for (int i=0;i<nDigits;++i){
+        res[nDigits-i]=(addrAtt&0xF);
+        addrAtt>>=4;
+    }
+    return res;
+}
+
 
 /**
  * This class provides a cooperative concurrency mechanism integrated with the
@@ -2888,6 +2900,7 @@ class Fiber
         m_call  = Call.NO;
         m_state = State.TERM;
         m_unhandled = null;
+        
         allocStack( sz );
     }
 
@@ -3125,6 +3138,12 @@ class Fiber
     }
     body
     {
+        if (m_state != State.TERM){
+            throw new Exception("Fiber@"~ptrToStr(cast(size_t)cast(void*)this)~" in unexpected state "~ptrToStr(m_state),__FILE__,__LINE__);
+        }
+        if (m_ctxt.tstack != m_ctxt.bstack){
+            throw new Exception("Fiber@"~ptrToStr(cast(size_t)cast(void*)this)~" bstack="~ptrToStr(cast(size_t)cast(void*)m_ctxt.bstack)~" != tstack="~ptrToStr(cast(size_t)cast(void*)m_ctxt.tstack),__FILE__,__LINE__);
+        }
         m_dg    = null;
         m_fn    = null;
         m_call  = Call.NO;
@@ -3624,8 +3643,8 @@ private:
     }
 
 
-    Thread.Context* m_ctxt;
-    size_t          m_size;
+    public Thread.Context* m_ctxt;
+    public size_t          m_size;
     void*           m_pmem;
 
     static if( is( ucontext_t ) )
