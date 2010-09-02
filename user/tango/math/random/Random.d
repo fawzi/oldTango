@@ -110,7 +110,7 @@
       $(LI  the default Source combines two surces that pass all statistical tests 
             (KISS+CMWC)
             (P. L'Ecuyer and R. Simard, ACM Transactions on Mathematical Software (2007),
-            33, 4, Article 22, for KISS, see CMWC enigine for the other)
+            33, 4, Article 22, for KISS, see CMWC engine for the other)
       )
       $(LI  floating point uniform generator always initializes the full mantissa, the
             only flaw is a (*very* small) predilection of 0 as least important bit 
@@ -291,7 +291,7 @@ final class RandomG(SourceT=DefaultEngine)
     T uniform(T,bool boundCheck=true)(){
         static if(is(T==uint)) {
             return source.next;
-        } else static if (is(T==int) || is(T==char) || is(T==byte) || is(T==ubyte)){
+        } else static if (is(T==int) || is(T==short) || is(T==ushort)|| is(T==char) || is(T==byte) || is(T==ubyte)){
             union Uint2A{
                 T t;
                 uint u;
@@ -431,7 +431,9 @@ final class RandomG(SourceT=DefaultEngine)
     T uniformR(T,bool boundCheck=true)(T to)
     in { assert(to>0,"empty range");}
     body {
-        static if (is(T==uint) || is(T==int) || is(T==char) || is(T==byte) || is(T==ubyte)){
+        static if (is(T==uint) || is(T==int) || is(T==short) || is(T==ushort) 
+            || is(T==char) || is(T==byte) || is(T==ubyte))
+        {
             uint d=uint.max/cast(uint)to,dTo=to*d;
             uint nV=source.next;
             if (nV>=dTo){
@@ -477,7 +479,7 @@ final class RandomG(SourceT=DefaultEngine)
     T uniformRSymm(T,bool boundCheck=true, bool excludeZero=isFloat!(T))(T to,int iter=2000)
     in { assert(to>0,"empty range");}
     body {
-        static if (is(T==int)|| is(T==byte)){
+        static if (is(T==int)|| is(T==short) || is(T==byte)){
             int d=int.max/to,dTo=to*d;
             int nV=cast(int)source.next;
             static if (excludeZero){
@@ -661,9 +663,9 @@ final class RandomG(SourceT=DefaultEngine)
     body {
         static if (is(T==int)||is(T==long)||is(T==uint)||is(T==ulong)){
             return from+uniformR(to-from);
-        } else if (is(T==char) || is(T==byte) || is(T==ubyte)){
+        } else static if (is(T==char) || is(T==byte) || is(T==ubyte) || is(T==short) || is(T==ushort)){
             int d=cast(int)to-cast(int)from;
-            int nV=uniformR(d);
+            int nV=uniformR!(int)(d);
             return cast(T)(nV+cast(int)from);
         } else static if (is(T==float) || is(T==double) || is(T==real)){
             T res=from+(to-from)*uniform!(T,false);

@@ -1388,7 +1388,7 @@ private:
         bool            m_isRunning;
     }
     bool                m_isDaemon;
-    Object              m_unhandled;
+    public Object              m_unhandled;
 
 
 private:
@@ -2764,8 +2764,8 @@ private char[] ptrToStr(size_t addr){
     enum{ nDigits=size_t.sizeof*2 }
     char[] res=new char[](nDigits);
     size_t addrAtt=addr;
-    for (int i=0;i<nDigits;++i){
-        res[nDigits-i]=(addrAtt&0xF);
+    for (int i=nDigits;i!=0;--i){
+        res[i-1]=digits[addrAtt&0xF];
         addrAtt>>=4;
     }
     return res;
