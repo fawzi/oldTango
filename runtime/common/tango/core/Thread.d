@@ -16,6 +16,32 @@ module tango.core.Thread;
 import tango.core.sync.Atomic;
 import tango.stdc.stdio:printf;
 
+private char[] ptrToStr(size_t addr,char[]buf){
+    char[] digits="0123456789ABCDEF";
+    enum{ nDigits=size_t.sizeof*2 }
+    if (nDigits>buf.length) assert(0);
+    char[] res=buf[0..nDigits];
+    size_t addrAtt=addr;
+    for (int i=nDigits;i!=0;--i){
+        res[i-1]=digits[addrAtt&0xF];
+        addrAtt>>=4;
+    }
+    return res;
+}
+
+void tLog(char[]msg){
+    auto addr=Thread.getThis().m_addr;
+    char[] s="Thread@";
+    write(2,s.ptr,s.length);
+    char[20] buf;
+    s=ptrToStr(cast(size_t)addr,buf);
+    write(2,s.ptr,s.length);
+    write(2," ".ptr,1);
+    s=msg;
+    write(2,s.ptr,s.length);
+    write(2,"\n".ptr,1);
+}
+
 // this should be true for most architectures
 version = StackGrowsDown;
 version(darwin){
@@ -398,6 +424,32 @@ else version( Posix )
                 if( obj && !obj.m_lock )
                 {
                     obj.m_curr.tstack = getStackTop();
+                    version(TrackContexts){
+                        char[41] msg;
+                        msg[0..4]="top:";
+                        msg[4..20]=' ';
+                        ptrToStr(cast(size_t)obj.m_curr.tstack,msg[4..20]);
+                        msg[20..25]=" bot:";
+                        msg[25..41]=' ';
+                        ptrToStr(cast(size_t)obj.m_curr.bstack,msg[25..41]);
+                        tLog(msg);
+                    }
+                } else {
+                    version(TrackContexts){
+                        if (obj){
+                            char[45] msg;
+                            msg[0..4]="top:";
+                            msg[4..20]=' ';
+                            ptrToStr(cast(size_t)obj.m_curr.tstack,msg[4..20]);
+                            msg[20..25]=" bot:";
+                            msg[25..41]=' ';
+                            msg[41..45]="lock";
+                            ptrToStr(cast(size_t)obj.m_curr.bstack,msg[25..41]);
+                            tLog(msg);
+                        } else {
+                            tLog("no Ctx!!");
+                        }
+                    }
                 }
 
                 sigset_t    sigres = void;
@@ -542,6 +594,23 @@ class Thread
     // Initialization
     ////////////////////////////////////////////////////////////////////////////
 
+    void printCtx(){
+        char[128] msg;
+        size_t pos=0;
+        char[] m="Thread@";
+        msg[pos..pos+m.length]=m;
+        pos+=m.length;
+        msg[pos..pos+16]=' ';
+        ptrToStr(cast(size_t)cast(void*)(this),msg[pos..pos+16]);
+        pos+=16;
+        m=".m_main@";
+        msg[pos..pos+m.length]=m;
+        pos+=m.length;
+        msg[pos..pos+16]=' ';
+        ptrToStr(cast(size_t)cast(void*)(&m_main),msg[pos..pos+16]);
+        pos+=16;
+        tLog(msg[0..pos]);
+    }
 
     /**
      * Initializes a thread object which is associated with a static
@@ -565,6 +634,9 @@ class Thread
         m_sz   = sz;
         m_call = Call.FN;
         m_curr = &m_main;
+        version(TrackContexts){
+            printCtx();
+        }
     }
 
 
@@ -590,6 +662,9 @@ class Thread
         m_sz   = sz;
         m_call = Call.DG;
         m_curr = &m_main;
+        version(TrackContexts){
+            printCtx();
+        }
     }
 
 
@@ -1428,6 +1503,21 @@ private:
     {
         c.within = m_curr;
         m_curr = c;
+        version(TrackContexts){{
+            char[82] msg;
+            msg[0..4]="psh:";
+            msg[4..20]=' ';
+            ptrToStr(cast(size_t)c.within.tstack,msg[4..20]);
+            msg[20..25]=" bot:";
+            msg[25..41]=' ';
+            msg[41..45]=" to ";
+            msg[45..61]=' ';
+            ptrToStr(cast(size_t)c.within.tstack,msg[45..61]);
+            msg[61..66]=" bot:";
+            msg[66..82]=' ';
+            ptrToStr(cast(size_t)c.within.bstack,msg[66..82]);
+            tLog(msg);
+        }}
     }
 
 
@@ -1439,6 +1529,22 @@ private:
     body
     {
         Context* c = m_curr;
+        version(TrackContexts){{
+            char[82] msg;
+            msg[0..4]="pop:";
+            msg[4..20]=' ';
+            ptrToStr(cast(size_t)c.tstack,msg[4..20]);
+            msg[20..25]=" bot:";
+            msg[25..41]=' ';
+            ptrToStr(cast(size_t)c.bstack,msg[25..411]);
+            msg[41..45]=" to ";
+            msg[45..61]=' ';
+            ptrToStr(cast(size_t)c.within.tstack,msg[45..61]);
+            msg[61..66]=" bot:";
+            msg[66..82]=' ';
+            ptrToStr(cast(size_t)c.within.bstack,msg[66..82]);
+            tLog(msg);
+        }}
         m_curr = c.within;
         c.within = null;
     }
@@ -1979,6 +2085,29 @@ extern (C) void thread_suspendAll()
             else if( !t.m_lock )
             {
                 t.m_curr.tstack = getStackTop();
+                version(TrackContexts){
+                    char[45] msg;
+                    msg[0..4]="top:";
+                    msg[4..20]=' ';
+                    ptrToStr(cast(size_t)t.m_curr.tstack,msg[4..20]);
+                    msg[20..25]=" bot:";
+                    msg[25..41]=' ';
+                    msg[41..45]="main";
+                    ptrToStr(cast(size_t)t.m_curr.bstack,msg[25..41]);
+                    tLog(msg);
+                }
+            } else {
+                version(TrackContexts){
+                    char[46] msg;
+                    msg[0..4]="top:";
+                    msg[4..20]=' ';
+                    ptrToStr(cast(size_t)t.m_curr.tstack,msg[4..20]);
+                    msg[20..25]=" bot:";
+                    msg[25..41]=' ';
+                    ptrToStr(cast(size_t)t.m_curr.bstack,msg[25..41]);
+                    msg[41..46]="mlock";
+                    tLog(msg);
+                }
             }
         }
     }
@@ -2221,6 +2350,17 @@ body
     //       been suspended from within the same lock.
     for( Thread.Context* c = Thread.sm_cbeg; c; c = c.next )
     {
+        version(TrackContexts){{
+            char[45] msg;
+            msg[0..4]="top:";
+            msg[4..20]=' ';
+            ptrToStr(cast(size_t)c.tstack,msg[4..20]);
+            msg[20..25]=" bot:";
+            msg[25..41]=' ';
+            ptrToStr(cast(size_t)c.bstack,msg[25..41]);
+            msg[41..45]="scan";
+            tLog(msg);
+        }}
         version( StackGrowsDown )
         {
             // NOTE: We can't index past the bottom of the stack
@@ -2593,7 +2733,16 @@ private
         assert( obj );
 
         assert( Thread.getThis().m_curr is obj.m_ctxt );
+        version(TrackContexts){{
+            char[80]msg;
+            auto m="fiber_entryPoint m_lock=false0_@";
+            msg[0..m.length]=m;
+            msg[m.length..m.length+16]=' ';
+            ptrToStr(cast(size_t)cast(void*)(Thread.getThis()),msg[m.length..m.length+16]);
+            tLog(msg[0..m.length+16]);
+        }}
         volatile Thread.getThis().m_lock = false;
+        version(TrackContexts) tLog("fiber_entryPoint m_lock=false1");
         obj.m_ctxt.tstack = obj.m_ctxt.bstack;
         obj.m_state = Fiber.State.EXEC;
 
@@ -2641,7 +2790,6 @@ private
                 push EBX;
                 push ESI;
                 push EDI;
-
                 // store oldp again with more accurate address
                 mov EAX, dword ptr 8[EBP];
                 mov [EAX], ESP;
@@ -2676,6 +2824,7 @@ private
                 push ECX;
                 push ESI;
                 push EDI;
+                
 
                 // store oldp again with more accurate address
                 mov EAX, dword ptr 8[EBP];
@@ -3391,6 +3540,23 @@ private:
         //       base of the stack being allocated below.  However, doing so
         //       requires too much special logic to be worthwhile.
         m_ctxt = new Thread.Context;
+        version(TrackContexts){{
+            char[128] msg;
+            size_t pos=0;
+            char[] m="fiber@";
+            msg[pos..pos+m.length]=m;
+            pos+=m.length;
+            msg[pos..pos+16]=' ';
+            ptrToStr(cast(size_t)cast(void*)(this),msg[pos..pos+16]);
+            pos+=16;
+            m=".m_ctxt@";
+            msg[pos..pos+m.length]=m;
+            pos+=m.length;
+            msg[pos..pos+16]=' ';
+            ptrToStr(cast(size_t)cast(void*)(m_ctxt),msg[pos..pos+16]);
+            pos+=16;
+            tLog(msg[0..pos]);
+        }}
 
         static if( is( typeof( VirtualAlloc ) ) )
         {
@@ -3709,7 +3875,16 @@ private:
         //       that it points to exactly the correct stack location so the
         //       successive pop operations will succeed.
         *oldp = getStackTop();
+        version(TrackContexts){{
+            char[80]msg;
+            auto m="switchIn m_lock=true0@";
+            msg[0..m.length]=m;
+            msg[m.length..m.length+16]=' ';
+            ptrToStr(cast(size_t)cast(void*)tobj,msg[m.length..m.length+16]);
+            tLog(msg[0..m.length+16]);
+        }}
         volatile tobj.m_lock = true;
+        version(TrackContexts) tLog("switchIn m_lock=true1");
         tobj.pushContext( m_ctxt );
 
         fiber_switchContext( oldp, newp );
@@ -3717,7 +3892,16 @@ private:
         // NOTE: As above, these operations must be performed in a strict order
         //       to prevent Bad Things from happening.
         tobj.popContext();
+        version(TrackContexts){{
+            char[80]msg;
+            auto m="switchIn m_lock=false0@";
+            msg[0..m.length]=m;
+            msg[m.length..m.length+16]=' ';
+            ptrToStr(cast(size_t)cast(void*)tobj,msg[m.length..m.length+16]);
+            tLog(msg[0..m.length+16]);
+        }}
         volatile tobj.m_lock = false;
+        version(TrackContexts) tLog("switchIn m_lock=false1");
         tobj.m_curr.tstack = tobj.m_curr.bstack;
     }
 
@@ -3743,13 +3927,31 @@ private:
         //       that it points to exactly the correct stack location so the
         //       successive pop operations will succeed.
         *oldp = getStackTop();
+        version(TrackContexts){{
+            char[80]msg;
+            auto m="switchOut m_lock=true0@";
+            msg[0..m.length]=m;
+            msg[m.length..m.length+16]=' ';
+            ptrToStr(cast(size_t)cast(void*)tobj,msg[m.length..m.length+16]);
+            tLog(msg[0..m.length+16]);
+        }}
         volatile tobj.m_lock = true;
-
+        version(TrackContexts) tLog("switchOut m_lock=true1");
+        
         fiber_switchContext( oldp, newp );
-
+        
         // NOTE: As above, these operations must be performed in a strict order
         //       to prevent Bad Things from happening.
+        version(TrackContexts){{
+            char[80]msg;
+            auto m="switchOut m_lock=false0@";
+            msg[0..m.length]=m;
+            msg[m.length..m.length+16]=' ';
+            ptrToStr(cast(size_t)cast(void*)tobj,msg[m.length..m.length+16]);
+            tLog(msg[0..m.length+16]);
+        }}
         volatile tobj.m_lock = false;
+        version(TrackContexts) tLog("switchOut m_lock=false1");
         tobj.m_curr.tstack = tobj.m_curr.bstack;
     }
 }
