@@ -1792,6 +1792,8 @@ extern (C) void thread_init()
     {
         Thread.sm_this = TlsAlloc();
         assert( Thread.sm_this != TLS_OUT_OF_INDEXES );
+        Fiber.sm_this = TlsAlloc();
+        assert( Thread.sm_this != TLS_OUT_OF_INDEXES );
     }
     else version( Posix )
     {
@@ -1863,6 +1865,8 @@ extern (C) void thread_init()
         assert( status == 0 );
 
         status = pthread_key_create( &Thread.sm_this, null );
+        assert( status == 0 );
+        status = pthread_key_create( &Fiber.sm_this, null );
         assert( status == 0 );
     }
 
@@ -3942,6 +3946,7 @@ private:
         
         // NOTE: As above, these operations must be performed in a strict order
         //       to prevent Bad Things from happening.
+        tobj=Thread.getThis();
         version(TrackContexts){{
             char[80]msg;
             auto m="switchOut m_lock=false0@";
